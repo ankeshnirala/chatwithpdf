@@ -1,0 +1,29 @@
+{
+  "name": "chatwithpdf",
+  "version": "1.0.0",
+  "description": "This is a nodejs application which takes pdf file as input and read the pdf file and response according to input provided in the file.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ankeshnirala/chatwithpdf"
+  },
+  "keywords": [
+    "chat",
+    "pdf",
+    "nodejs"
+  ],
+  "author": "Ankesh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf.js-extract": "^0.2.1",
+    "pdfjs-dist": "^3.6.172"
+  }
+}
